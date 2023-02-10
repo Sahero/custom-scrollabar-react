@@ -12,7 +12,7 @@ export default function App() {
       <div className="App">
         <div className="example-container">
           <h3>Native Scrollbar </h3>
-          <div class="native-scroll-container">
+          <div className="native-scroll-container">
             <Content1 />
             <Content2 />
             <Content3 />
@@ -21,7 +21,7 @@ export default function App() {
 
         <div className="example-container">
           <h3>Custom Scrollbar</h3>
-          <div class="custom-scroll-container with-bg-color">
+          <div className="custom-scroll-container with-bg-color">
             <CustomScroll heightRelativeToParent="100%">
               <Content1 />
               <Content2 />
@@ -31,7 +31,7 @@ export default function App() {
         </div>
         <div className="example-container">
           <h3>Cusotom Scrollbar With Icon </h3>
-          <div class="custom-scroll-container with-icon">
+          <div className="custom-scroll-container with-icon">
             <CustomScroll allowOuterScroll={true} heightRelativeToParent="100%">
               <Content1 />
               <Content2 />
